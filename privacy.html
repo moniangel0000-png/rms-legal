@@ -59,11 +59,12 @@
   </div>
 
   <div class="callout">
-    <strong>This version of the app ships ad-free.</strong> It shows no advertising,
-    uses no advertising identifier, and offers no in-app purchases. The advertising
-    and purchase disclosures are retained in <strong>Appendix A</strong> so they are
-    ready if a future, clearly ad-supported version is released; they do <strong>not</strong>
-    apply to the version you are using now.
+    <strong>This version of the app is ad-supported.</strong> It shows ads served by
+    Google AdMob and, where required by law (e.g. the EEA/UK), presents a
+    Google-certified consent prompt before any ad is requested. It has
+    <strong>no in-app purchases</strong>. The in-app-purchase disclosures are retained in
+    <strong>Appendix A</strong> for a possible future "Remove ads" option; they do
+    <strong>not</strong> apply to the version you are using now.
   </div>
 
   <h2>1. Overview</h2>
@@ -82,8 +83,9 @@
     account or give us personal details to use it.</li>
   </ul>
   <h3>b) Data collected automatically by third-party services</h3>
-  <p>This version uses Google Firebase for diagnostics and reliability. It does
-  <strong>not</strong> use any advertising SDK and does not collect an advertising identifier.</p>
+  <p>This version uses Google Firebase for diagnostics and reliability, and Google
+  AdMob to show ads. AdMob collects your device's <strong>advertising identifier</strong> and
+  related ad-interaction data to serve and measure ads.</p>
   <div class="tablewrap">
   <table>
     <thead><tr><th>Data</th><th>Service</th><th>Purpose</th></tr></thead>
@@ -91,6 +93,8 @@
       <tr><td>App usage &amp; diagnostics (e.g. app opens, which features are used, connection success/failure, in aggregate)</td><td>Google Firebase Analytics</td><td>Understand and improve the app</td></tr>
       <tr><td>Crash reports &amp; performance data (stack traces, device model, OS version)</td><td>Google Firebase Crashlytics</td><td>Diagnose and fix crashes</td></tr>
       <tr><td>Push-notification token</td><td>Google Firebase Cloud Messaging</td><td>Deliver notifications (only if notifications are enabled)</td></tr>
+      <tr><td>Advertising ID &amp; ad-interaction data (e.g. ad impressions/clicks)</td><td>Google AdMob</td><td>Show and measure ads</td></tr>
+      <tr><td>Approximate location (may be inferred from IP for ad delivery)</td><td>Google AdMob</td><td>Ad delivery/relevance</td></tr>
     </tbody>
   </table>
   </div>
@@ -110,18 +114,19 @@
     <li>Operate core features (connect to and control your computer/TV).</li>
     <li>Diagnose crashes and improve reliability and features.</li>
   </ul>
-  <p>We do <strong>not</strong> sell your personal information. This version shows no ads
-  and does not use your data for advertising.</p>
+  <p>We do <strong>not</strong> sell your personal information. This version shows ads served
+  by Google AdMob; where required by law we ask for your consent before requesting them.</p>
 
   <h2>4. Advertising and in-app purchases</h2>
-  <p><strong>This version does not show ads and has no in-app purchases.</strong> No advertising
-  SDK is active, no advertising identifier is used, and no consent (UMP) ad prompt
-  is shown because the app never requests ads.</p>
-  <p>If a future version reintroduces advertising, it will be clearly ad-supported,
-  this policy and the store listing will be updated, and — where required by law
-  (e.g. the EEA/UK under GDPR) — a Google-certified consent prompt will be shown
-  before any ad is requested. See <strong>Appendix A</strong> for the disclosures that would
-  apply in that case.</p>
+  <p><strong>This version is ad-supported via Google AdMob and has no in-app purchases.</strong>
+  AdMob uses your advertising identifier to serve and measure ads. Where required
+  by law (e.g. the EEA/UK under GDPR), a <strong>Google-certified consent (UMP) prompt</strong>
+  is shown before any ad is requested, and ads are requested only if your consent
+  allows.</p>
+  <p>You can limit ad personalization at the OS level (Android: Settings →
+  Privacy/Google → Ads) by resetting or deleting your advertising ID. A future
+  version may add a one-time "Remove ads" purchase; see <strong>Appendix A</strong> for the
+  disclosures that would apply then.</p>
 
   <h2>5. Children</h2>
   <p>The app is <strong>not directed to children</strong> and we do not knowingly collect data
@@ -133,9 +138,11 @@
   <ul>
     <li>Google Firebase (Analytics, Crashlytics, Cloud Messaging, Remote Config) —
     <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+    <li>Google AdMob (advertising) —
+    <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li>
     <li>Google general privacy policy — <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
   </ul>
-  <p>(Advertising and billing providers are listed in Appendix A and are not used by this version.)</p>
+  <p>(In-app billing providers are listed in Appendix A and are not used by this version.)</p>
 
   <h2>7. Data sharing and transfer</h2>
   <p>We do not share your personal data with third parties except the service
@@ -173,35 +180,27 @@
   <h2>12. Contact</h2>
   <p>Questions or requests: <a href="mailto:moniangel0000@gmail.com"><strong>moniangel0000@gmail.com</strong></a>.</p>
 
-  <h2>Appendix A — Advertising &amp; in-app purchases (NOT active in this version)</h2>
-  <p>The version described above ships ad-free with no in-app purchases. This
-  appendix is retained so the disclosures are ready if a future, clearly
-  ad-supported version is released. <strong>Nothing in this appendix applies to the
-  current version.</strong></p>
-  <p>If ads/purchases are reintroduced, the following would apply and this policy's
-  main body would be updated to match:</p>
+  <h2>Appendix A — In-app purchases (NOT active in this version)</h2>
+  <p>The version described above is ad-supported and offers <strong>no in-app purchases</strong>.
+  This appendix is retained so the disclosure is ready if a future version adds a
+  one-time "Remove ads" purchase. <strong>Nothing in this appendix applies to the current
+  version.</strong></p>
+  <p>If a "Remove ads" purchase is introduced, the following would apply and this
+  policy's main body would be updated to match:</p>
   <div class="tablewrap">
   <table>
     <thead><tr><th>Data</th><th>Service</th><th>Purpose</th></tr></thead>
     <tbody>
-      <tr><td>Advertising ID &amp; ad-interaction data</td><td>Google AdMob (mobile) / Google AdSense (web)</td><td>Show ads and measure them</td></tr>
-      <tr><td>Approximate location (may be inferred from IP for ad delivery)</td><td>Google AdMob</td><td>Ad delivery/relevance</td></tr>
       <tr><td>Purchase status of the one-time "Remove ads" item</td><td>Google Play Billing</td><td>Provide and restore an ad-free entitlement</td></tr>
     </tbody>
   </table>
   </div>
   <ul>
-    <li>The free version would be ad-supported via Google AdMob (and AdSense on web).
-    Where required by law, a <strong>Google-certified consent (UMP) prompt</strong> would be
-    shown before requesting any ads, and ads requested only if consent allows.</li>
     <li>A one-time <strong>Remove ads</strong> purchase would disable ads; the entitlement would
     be cached locally and validated against Google Play.</li>
-    <li>You could limit ad personalization at the OS level (Android: Settings →
-    Privacy/Google → Ads) by resetting or deleting your advertising ID.</li>
   </ul>
-  <p>Providers that would then apply, under their own policies:</p>
+  <p>Provider that would then apply, under its own policy:</p>
   <ul>
-    <li>Google AdMob / AdSense — <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li>
     <li>Google Play Billing — <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
   </ul>
 
